@@ -1,0 +1,15 @@
+{
+  "dependencies": {},
+  "description": "Faithful remake of the reference anonymous-chat Discord bot: raw REST + Gateway, no wrappers.",
+  "engines": {
+    "node": ">=20"
+  },
+  "name": "anon-chat-remake-experimental",
+  "scripts": {
+    "register": "node src/register.js",
+    "start": "node src/index.js",
+    "test": "node tests/remake.mjs && node tests/profanity-engine.mjs"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

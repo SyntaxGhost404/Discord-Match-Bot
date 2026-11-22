@@ -1,0 +1,112 @@
+{
+  "profiles": {
+    "A": {
+      "id": "A",
+      "is_onboarded": true,
+      "anonymous_id": "6c0f5eb367a2ea09",
+      "name": "user_A",
+      "dob": "2000-01-01",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-19T15:02:50.168Z",
+      "updatedAt": "2026-09-19T15:02:50.176Z",
+      "lifetime": {
+        "messages": 0,
+        "attachments": 0,
+        "chatMs": 1,
+        "chats": 1,
+        "longestChatMs": 1,
+        "shares": 0
+      }
+    },
+    "B": {
+      "id": "B",
+      "is_onboarded": true,
+      "anonymous_id": "535ed9d81fd75966",
+      "name": "user_B",
+      "dob": "2000-01-01",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-19T15:02:50.169Z",
+      "updatedAt": "2026-09-19T15:02:50.175Z",
+      "lifetime": {
+        "messages": 0,
+        "attachments": 0,
+        "chatMs": 1,
+        "chats": 1,
+        "longestChatMs": 1,
+        "shares": 0
+      }
+    },
+    "C": {
+      "id": "C",
+      "is_onboarded": true,
+      "anonymous_id": "842d230027493492",
+      "name": "user_C",
+      "dob": "2000-01-01",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-19T15:02:50.169Z",
+      "updatedAt": "2026-09-19T15:02:50.169Z"
+    },
+    "D": {
+      "id": "D",
+      "is_onboarded": true,
+      "anonymous_id": "90890f1e72c112ec",
+      "name": "user_D",
+      "dob": "2000-01-01",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-19T15:02:50.180Z",
+      "updatedAt": "2026-09-19T15:02:50.180Z"
+    },
+    "E": {
+      "id": "E",
+      "is_onboarded": true,
+      "anonymous_id": "87aaa79a1b2de890",
+      "name": "user_E",
+      "dob": "2000-01-01",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-19T15:02:50.180Z",
+      "updatedAt": "2026-09-19T15:02:50.180Z"
+    }
+  },
+  "bans": {},
+  "blocks": {
+    "A": {
+      "B": {
+        "at": "2026-09-19T15:02:50.175Z",
+        "anonId": "535ed9d81fd75966",
+        "source": "chat"
+      }
+    }
+  },
+  "reports": [],
+  "shares": {},
+  "dms": {
+    "B": "dm_X",
+    "A": "dm_X",
+    "C": "dm_X",
+    "D": "dm_X"
+  },
+  "onboard_drafts": {},
+  "recentPartners": {
+    "B": [
+      "A"
+    ],
+    "A": [
+      "B"
+    ]
+  }
+}

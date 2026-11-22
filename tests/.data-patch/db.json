@@ -1,0 +1,26 @@
+{
+  "profiles": {
+    "CQ4A": {
+      "id": "CQ4A",
+      "is_onboarded": true,
+      "anonymous_id": "8cb9fad10c71c342",
+      "name": "user_CQ4A",
+      "dob": "2006-09-21",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-21T07:19:08.968Z",
+      "updatedAt": "2026-09-21T07:19:08.968Z"
+    }
+  },
+  "bans": {},
+  "blocks": {},
+  "reports": [],
+  "shares": {},
+  "dms": {},
+  "onboard_drafts": {},
+  "recentPartners": {},
+  "reputation": {},
+  "ratedSessions": {}
+}

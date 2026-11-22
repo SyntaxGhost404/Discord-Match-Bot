@@ -1,0 +1,73 @@
+{
+  "profiles": {
+    "B1": {
+      "id": "B1",
+      "is_onboarded": true,
+      "anonymous_id": "91303258cd06cd08",
+      "name": "user_B1",
+      "dob": "2006-09-21",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-21T08:22:30.627Z",
+      "updatedAt": "2026-09-21T08:22:30.628Z",
+      "lifetime": {
+        "messages": 0,
+        "attachments": 0,
+        "chatMs": 0,
+        "chats": 1,
+        "longestChatMs": 0,
+        "shares": 0
+      }
+    },
+    "B2": {
+      "id": "B2",
+      "is_onboarded": true,
+      "anonymous_id": "fae6463293443dec",
+      "name": "user_B2",
+      "dob": "2006-09-21",
+      "location": "",
+      "bio": "",
+      "media": [],
+      "interests": [],
+      "createdAt": "2026-09-21T08:22:30.627Z",
+      "updatedAt": "2026-09-21T08:22:30.628Z",
+      "lifetime": {
+        "messages": 0,
+        "attachments": 0,
+        "chatMs": 0,
+        "chats": 1,
+        "longestChatMs": 0,
+        "shares": 0
+      }
+    }
+  },
+  "bans": {},
+  "blocks": {
+    "B1": {
+      "B2": {
+        "at": "2026-09-21T08:22:30.628Z",
+        "anonId": "fae6463293443dec",
+        "source": "chat"
+      }
+    }
+  },
+  "reports": [],
+  "shares": {},
+  "dms": {
+    "B2": "dm_B2",
+    "B1": "dm_B1"
+  },
+  "onboard_drafts": {},
+  "recentPartners": {
+    "B2": [
+      "B1"
+    ],
+    "B1": [
+      "B2"
+    ]
+  },
+  "reputation": {},
+  "ratedSessions": {}
+}

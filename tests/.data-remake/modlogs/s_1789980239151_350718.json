@@ -1,0 +1,34 @@
+{
+  "session_id": "s_1789980239151_350718",
+  "ended_at": "2026-09-21T08:43:59.153Z",
+  "reason": "profanity_limit",
+  "minor_chat": true,
+  "offender_user_id": "L2A",
+  "offender_flagged_messages": 4,
+  "participants": [
+    "L2B",
+    "L2A"
+  ],
+  "messages": [
+    {
+      "at": "2026-09-21T08:43:59.152Z",
+      "from": "L2A",
+      "text": "ass happens"
+    },
+    {
+      "at": "2026-09-21T08:43:59.152Z",
+      "from": "L2A",
+      "text": "ass happens"
+    },
+    {
+      "at": "2026-09-21T08:43:59.153Z",
+      "from": "L2A",
+      "text": "ass happens"
+    },
+    {
+      "at": "2026-09-21T08:43:59.153Z",
+      "from": "L2A",
+      "text": "ass happens"
+    }
+  ]
+}
