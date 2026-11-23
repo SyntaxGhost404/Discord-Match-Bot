@@ -1,4 +1,16 @@
+# Secrets — never commit a filled .env
 .env
+.env.*
+!.env.example
+
+# Runtime data (SQLite database, WAL files)
 data/
+*.db
+*.db-wal
+*.db-shm
+
+# Dependencies & tooling output
 node_modules/
+coverage/
 *.log
+.DS_Store

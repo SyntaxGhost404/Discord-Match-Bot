@@ -1,15 +1,27 @@
 {
-  "dependencies": {},
-  "description": "Faithful remake of the reference anonymous-chat Discord bot: raw REST + Gateway, no wrappers.",
-  "engines": {
-    "node": ">=20"
-  },
-  "name": "anon-chat-remake-experimental",
-  "scripts": {
-    "register": "node src/register.js",
-    "start": "node src/index.js",
-    "test": "node tests/remake.mjs && node tests/profanity-engine.mjs"
-  },
+  "name": "discord-match-bot",
+  "version": "2.0.0",
+  "description": "A Discord bot for meeting new people: profiles, discovery, mutual matches and anonymous chat. Built directly on the raw Discord API.",
+  "private": true,
   "type": "module",
-  "version": "1.0.0"
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.ts",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/index.ts",
+    "commands": "node --disable-warning=ExperimentalWarning scripts/sync-commands.ts",
+    "live-check": "node --disable-warning=ExperimentalWarning scripts/live-check.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "check": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "obscenity": "0.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
 }
